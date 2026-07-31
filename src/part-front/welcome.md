@@ -1,19 +1,19 @@
-# Seven Vector Databases in Seven Days
+# Seven Ways to Do Vector Search in Python
 
 ## How to Cite This Book
 
 If you use this book in your work, please cite it as:
 
 **APA:**
-Chaudhri, A. (2026). *Seven Vector Databases in Seven Days*. Self-published. https://seven-vector-databases.github.io/
+Chaudhri, A. (2026). *Seven Ways to Do Vector Search in Python*. Self-published. https://seven-vector-search.github.io/
 
 **BibTeX:**
 ```bibtex
-@online{chaudhri2026vectordatabases,
+@online{chaudhri2026vectorsearch,
   author  = {Chaudhri, Akmal},
-  title   = {Seven Vector Databases in Seven Days},
+  title   = {Seven Ways to Do Vector Search in Python},
   year    = {2026},
-  url     = {https://seven-vector-databases.github.io/},
-  urldate = {2026-07-21}
+  url     = {https://seven-vector-search.github.io/},
+  urldate = {2026-07-31}
 }
 ```
