@@ -1,0 +1,16 @@
+[book]
+authors = ["Akmal Chaudhri"]
+language = "en"
+src = "src"
+title = "Seven Ways to Do Vector Search in Python"
+description = "In Seven Days"
+
+[output.html]
+hash-files = true
+git-repository-url = "https://github.com/seven-vector-search/seven-vector-search.github.io"
+edit-url-template = "https://github.com/seven-vector-search/seven-vector-search.github.io/edit/main/src/{path}"
+no-section-label = true
+
+[output.html.search]
+limit-results = 20
+use-boolean-and = true
