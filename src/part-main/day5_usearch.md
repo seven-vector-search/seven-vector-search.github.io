@@ -28,7 +28,7 @@ HNSW query recall settled at 0.897 across all `expansion_search` settings above 
 
 ## The exact search result
 
-The most significant finding in this chapter is what happened when we enabled `exact=True`. USearch's exact brute-force mode is supposed to be dramatically faster than FAISS's `IndexFlatL2` on modern hardware. On our MacBook Air M4 it was 5 times slower -- 77ms compared to FAISS's 14ms.
+The most significant finding in this chapter is what happened when we enabled `exact=True`. USearch's exact brute-force mode is supposed to be dramatically faster than FAISS's `IndexFlatL2` on modern hardware. On our MacBook Air M4 it was 5 times slower - 77ms compared to FAISS's 14ms.
 
 This is not a USearch bug. It's a platform mismatch. USearch's SIMD optimizations target Intel AVX-512 instructions, which are available on Intel Sapphire Rapids and similar x86 server processors. Apple Silicon uses ARM NEON and SVE, a different SIMD architecture, for which USearch does not have the same level of optimization. The 20x speedup claim is real on the hardware it was designed for. On an M4 Mac the picture is reversed.
 
