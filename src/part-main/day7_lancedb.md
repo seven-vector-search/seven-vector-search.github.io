@@ -50,7 +50,10 @@ The crime type distribution matched our generation weights precisely: Burglary a
 
 Several things changed or behaved unexpectedly in LanceDB 0.33.0 that are worth flagging:
 
-`table_names()` is deprecated -- use `db.list_tables()` instead. The `create_table` call needs `mode="overwrite"` when rerunning a notebook, otherwise it fails with a `ValueError` if the table already exists. The `_distance` column in query results is inaccessible via `itertuples()` because pandas renames underscore-prefixed columns - use `iterrows()` with `row['_distance']` instead. And querying with a `.select()` clause that omits `_distance` triggers a deprecation warning; omitting the select clause entirely silences it.
+- `table_names()` is deprecated - use `db.list_tables()` instead
+- `create_table` needs `mode="overwrite"` when rerunning a notebook, otherwise it fails with a `ValueError` if the table already exists
+- `_distance` column in query results is inaccessible via `itertuples()` because pandas renames underscore-prefixed columns - use `iterrows()` with `row['_distance']` instead
+- `.select()` that omits `_distance` triggers a deprecation warning; omitting the select clause entirely silences it
 
 ## Cloud storage
 
