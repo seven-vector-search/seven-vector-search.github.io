@@ -54,7 +54,7 @@ Here is a simplified way to choose:
 
 ## What this book did not cover
 
-We focused on single-node in-process search. We didn't cover distributed vector search, streaming index updates at scale, or the interaction between vector search and traditional relational queries in a production data platform. For those topics the companion book - *[Seven Vector Databases in Seven Days](https://seven-vector-databases.github.io/)* - covers the infrastructure layer: PostgreSQL with pgvector, MongoDB Atlas, Pinecone, Weaviate, Neo4j, Snowflake and Databricks.
+We focused on single-node in-process search. We didn't cover distributed vector search, streaming index updates at scale or the interaction between vector search and traditional relational queries in a production data platform. For those topics the companion book - *[Seven Vector Databases in Seven Days](https://seven-vector-databases.github.io/)* - covers the infrastructure layer: PostgreSQL with pgvector, MongoDB Atlas, Pinecone, Weaviate, Neo4j, Snowflake and Databricks.
 
 We also didn't cover embedding model selection. We used `all-MiniLM-L6-v2` throughout because it's a standard baseline that makes the library comparisons clean. In practice, the choice of embedding model often matters more than the choice of search library. A better model with a slower library will outperform a worse model with the fastest library every time.
 
