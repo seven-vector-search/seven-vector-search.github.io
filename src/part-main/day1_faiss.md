@@ -19,7 +19,7 @@ FAISS offers many index types but three cover the vast majority of use cases.
 
 **IndexIVFFlat** partitions the vector space into Voronoi cells using k-means clustering. At query time it searches only the nearest cells rather than the entire index. Two parameters control the tradeoff: `nlist` (the number of cells) and `nprobe` (the number of cells searched at query time). Higher `nprobe` improves recall at the cost of speed. Unlike `IndexFlatL2`, an IVF index must be trained before adding vectors.
 
-**IndexHNSWFlat** builds a multi-layer graph of vectors where each node connects to its nearest neighbors. Queries traverse the graph from the top layer down, narrowing the search at each level. This produces excellent recall at low latency with no training step required. The key parameter is `M` -- the number of connections per node.
+**IndexHNSWFlat** builds a multi-layer graph of vectors where each node connects to its nearest neighbors. Queries traverse the graph from the top layer down, narrowing the search at each level. This produces excellent recall at low latency with no training step required. The key parameter is `M` - the number of connections per node.
 
 ## What we found
 
