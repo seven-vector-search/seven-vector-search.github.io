@@ -50,6 +50,6 @@ Like FAISS, Voyager has no metadata filtering. If you need to constrain search r
 Voyager is the wrong choice if:
 
 - You need exact search - Voyager is approximate only
-- Your dataset does not fit in RAM - look at LanceDB (Day 7)
 - You need metadata filtering - look at Chroma (Day 6) or LanceDB (Day 7)
+- Your dataset does not fit in RAM - look at LanceDB (Day 7)
 - You want a purely static index with the smallest possible memory footprint and do not need dynamic insertion
