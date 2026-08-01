@@ -10,7 +10,7 @@
 # Introduction
 
 - [Introduction](part-front/introduction.md)
-- [The Dataset](part-front/chapter_dataset.md)
+- [The Dataset](part-front/dataset.md)
 
 # Seven Days
 
