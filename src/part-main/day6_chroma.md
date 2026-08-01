@@ -47,7 +47,7 @@ Chroma's `PersistentClient` writes to a local directory automatically. We verifi
 
 ## A note on the API
 
-In Chroma 1.5.9, `"ids"` is not a valid value for the `include` parameter in `collection.query()`. IDs are always returned by default and do not need to be requested explicitly. Passing `include=["ids"]` raises a `ValueError`. Use `include=[]` to return only IDs, or `include=["documents", "metadatas", "distances"]` for the full result set.
+In Chroma 1.5.9, `"ids"` is not a valid value for the `include` parameter in `collection.query()`. IDs are always returned by default and do not need to be requested explicitly. Passing `include=["ids"]` raises a `ValueError`. Use `include=[]` to return only IDs or `include=["documents", "metadatas", "distances"]` for the full result set.
 
 ## What Chroma does not do
 
