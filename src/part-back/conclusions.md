@@ -40,7 +40,7 @@ Here is a simplified way to choose:
 
 **Start with PyNNDescent** if your dataset fits in memory, you do not need metadata filtering and you want the simplest path to fast approximate search. It has sensible defaults, no compilation step for the user and good recall.
 
-**Reach for FAISS** if you need exact results, are working at very large scale within memory, or want fine-grained control over index type and parameters. It's the most flexible and best-documented library in this book.
+**Reach for FAISS** if you need exact results, are working at very large scale within memory or want fine-grained control over index type and parameters. It's the most flexible and best-documented library in this book.
 
 **Use Voyager** if you want HNSW with a cleaner API than FAISS, need dynamic insertion and appreciate that it's battle-tested at Spotify's scale.
 
