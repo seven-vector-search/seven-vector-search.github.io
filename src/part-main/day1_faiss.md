@@ -57,6 +57,6 @@ The IVF index requires training data representative of your full dataset. If you
 FAISS is the wrong choice if:
 
 - You need metadata filtering alongside vector search
-- Your dataset does not fit in RAM - look at LanceDB (Day 7)
 - You need a persistent queryable store - look at Chroma (Day 6)
+- Your dataset does not fit in RAM - look at LanceDB (Day 7)
 - You want automatic parameter tuning - other libraries handle this more gracefully
