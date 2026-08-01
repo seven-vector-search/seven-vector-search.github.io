@@ -14,7 +14,7 @@ This is not a survey of vector search theory. We won't derive the mathematics of
 
 This book is for Python developers who need vector search to work and want to understand their options before committing to one. You might be building a RAG pipeline and wondering whether you need a database or whether a library will do. You might be hitting performance limits with your current approach and wondering if there is a faster option. You might simply be curious about what the ecosystem looks like right now.
 
-we'll assume comfort with Python and pandas. We'll use Jupyter notebooks throughout.
+We'll assume comfort with Python and pandas. We'll use Jupyter notebooks throughout.
 
 ## The companion book
 
