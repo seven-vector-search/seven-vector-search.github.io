@@ -44,7 +44,7 @@ The scaling chart tells the most important story: flat index latency grows linea
 
 All ten results for our sample burglary query came from the same neighborhood using the same template structure. Every result was some variation of "Residence - Single Family in Hartley Cross targeted." This is the embedding model doing exactly what it was designed to do: finding linguistic similarity. In a dataset generated from templates, linguistic similarity and template similarity are almost the same thing.
 
-This is worth keeping in mind throughout the book. Embedding-based search finds incidents described in similar language. In production with officer-written narratives - which have far more linguistic variety - the clusters would be semantically richer. Our synthetic data is honest about this limitation.
+This is worth keeping in mind throughout the book. Embedding-based search finds incidents described in similar language. In production with officer-written narratives - which have far more linguistic variety - the clusters would be semantically richer. Our synthetic data are honest about this limitation.
 
 ## What FAISS does not do
 
