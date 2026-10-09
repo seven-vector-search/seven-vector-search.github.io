@@ -1,4 +1,4 @@
-# Seven Ways to Do Vector Search in Python
+# Welcome
 
 ## How to Cite This Book
 
