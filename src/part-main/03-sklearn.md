@@ -41,7 +41,7 @@ Scikit-learn's NearestNeighbors has no dedicated index persistence (you can pick
 
 There's also no built-in metadata filtering, no document storage and no path from scikit-learn to a production serving layer. It's a research and development tool, not a deployment target.
 
-## The honest conclusion
+## The conclusion
 
 Scikit-learn NearestNeighbors is the right answer to a specific question: "I need nearest neighbor search, I already have scikit-learn and my dataset is small." For anything larger or more demanding, the libraries in the remaining chapters are the better choice. The value of this chapter is not in the performance numbers - which are unimpressive - but in seeing clearly where scikit-learn's limits are and why they exist.
 

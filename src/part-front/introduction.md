@@ -4,7 +4,7 @@ Vector search is one of those ideas that sounds complicated until you see it wor
 
 This book is a practical guide to seven of those tools. We'll use the same dataset throughout, ask the same questions of each library and measure the results consistently so you can make informed choices rather than guessing. By the end you'll know not just how to use each library but why you would reach for one over another given your specific constraints.
 
-## What this book is
+## What this book is about
 
 Each chapter introduces one library, builds an index over a 500,000-record crime incident dataset, runs similarity searches, evaluates recall and latency against a consistent ground truth and discusses honestly what the library is good at and where it falls short. The chapters are designed to be read in order but work as standalone references once you know the context.
 
