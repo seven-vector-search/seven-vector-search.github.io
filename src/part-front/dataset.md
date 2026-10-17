@@ -1,4 +1,4 @@
-# The dataset
+# The Dataset
 
 Before we can evaluate any vector search library we need something to search. This chapter covers how we built the Nordvik crime dataset and why we made the choices we did.
 
